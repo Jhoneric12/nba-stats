@@ -10,7 +10,7 @@ export const Stats = async (playerName) => {
         }
         else {
             const data = await nba.json()
-            console.log(data.results)
+            console.log(data)
             return data
         }
     }
